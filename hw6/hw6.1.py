@@ -92,5 +92,5 @@ f.close()
 
 with open('../file_practice.txt', 'r+') as file:
     file.seek(len(file.read()) // 2)
-    file.write('*some inserted text*')
+    file.write(' *some inserted text* ')
     file.close()
